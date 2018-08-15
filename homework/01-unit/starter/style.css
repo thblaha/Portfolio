@@ -1,0 +1,53 @@
+body {
+  background-image: url(./assets/bckgrnd.png);
+}
+h1 {
+    font-family: "Montserrat", sans serif;
+    src: url("https://fonts.googleapis.com/css?family=Montserrat")rel="stylesheet";
+    font-weight: normal;
+    font-style: normal;
+    color: #333333;
+  }
+
+h2 {
+  font-family: "Montserrat", sans serif;
+  src: url("https://fonts.googleapis.com/css?family=Montserrat")rel="stylesheet";
+  font-weight: bold;
+  font-style: normal;
+  color: #333333;
+}
+p {
+  font-family: "Open Sans";
+  src: url ("https://fonts.googleapis.com/css?family=Open+Sans") rel=
+    "stylesheet";
+  font-weight: normal;
+  font-style: normal;
+  color: #333333;
+}
+img {
+  padding: 0;
+  margin: 0;
+  color: #2c5fa8;
+  border-radius: 100px;
+  border-width: 3px;
+}
+h3{
+    font-family: "Montserrat", sans serif;
+    src: url("https://fonts.googleapis.com/css?family=Montserrat")rel="stylesheet";
+    font-weight: strong;
+    font-style: normal;
+    color: #333333;
+  }
+picture {
+  background-color: #969696;
+  opacity: rgb (150, 150, 150);
+  padding: 200px;
+  max-resolution: 10px;
+  length 0;
+  width: 0;
+  }
+}
+
+footer {
+    position:relative;
+}

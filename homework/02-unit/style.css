@@ -1,0 +1,14 @@
+body {
+    background-color: salmon;
+    padding: 10px;
+}
+
+p {
+    margin-bottom: 7px;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: blue;
+    }
+}
