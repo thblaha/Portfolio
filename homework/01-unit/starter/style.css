@@ -43,7 +43,14 @@ h3 {
   background-color: #969696;
   color: #FFFFFF;
   opacity: .5;
-  padding: 10px
+  padding: 10px;
+  margin:
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 footer {
