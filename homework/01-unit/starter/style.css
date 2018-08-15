@@ -24,9 +24,10 @@ p {
   color: #333333;
 }
 
-img {
+.circle {
   padding: 0;
   margin: 0;
+  width: 200px;
   color: #2c5fa8;
   border-radius: 100px;
   border-width: 3px;
@@ -36,18 +37,13 @@ h3 {
   font-family: "Montserrat", sans serif;
   font-weight: strong;
   font-style: normal;
-  color: #333333;
 }
 
-picture {
+.portfolio {
   background-color: #969696;
-  opacity: rgb (150, 150, 150);
-  padding: 200px;
-  max-resolution: 10px;
-  length: 0;
-  width: 0;
-}
-
+  color: #FFFFFF;
+  opacity: .5;
+  padding: 10px
 }
 
 footer {
