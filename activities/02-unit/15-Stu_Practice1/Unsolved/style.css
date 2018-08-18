@@ -1,0 +1,96 @@
+body {
+    height: 98vh;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+}
+
+h1 {
+    font-family: 'Oswald';
+    color: black
+}
+
+h2 {
+    font-family: 'Sonsie One';
+    color: black;
+}
+h3 {
+    background-color: white;
+    padding: 10px;
+}
+main {
+    display:grid;
+    height: 100%;
+    grid-template-rows:repeat(4,1fr);
+    grid-template-columns:1fr;
+    grid-gap: 10px;
+    margin: 20px;
+    padding: 20px;
+    color:#666666;
+}
+.box {
+    height: 100%;
+    display:grid;
+    grid-row: span 1;
+    grid-columm: span 1;
+}
+
+.one {
+background: url(images/lake.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height:200px;
+
+}
+.two {
+background: url(images/empire.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height:200px;
+
+}
+.three {
+background: url(images/person.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height:200px;
+}
+.four {
+background: url(images/tree.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height:200px;
+}
+
+@media only screen and (min-width: 600px) {
+      
+}
+main {
+    grid-template-columns:4,1fr;
+    grid-template-rows: 2, 1fr;
+    display: grid;
+}
+.five {
+    background: url(images/geo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:200px;
+    }
+    .six {
+    background: url(images/sand.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:200px;
+    }
+    .seven {
+    background: url(images/bridge.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:200px;
+    }
+    .eight {
+        background: url(images/lens.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height:200px;
+    }

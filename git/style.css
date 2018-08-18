@@ -1,0 +1,37 @@
+.body {
+    background-color: #666666;
+    padding: 50px 50px 50px 50px;
+}
+
+ .p {
+     font-family: "Lato", Ariel, Helvetica, sans-serif;
+     color: white;
+
+}
+
+.main {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat 1fr;
+    grid-template-rows: repeat (4, 1fr);
+    grid-gap: 30px;
+}
+
+.box {
+    grid-row: span 1;
+    grid-column: span 1;
+}
+
+nav {
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 600px) {
+
+}
+main {
+    grid-template-columns: 200px repeat (3, 1fr);
+    grid-template-rows: 1fr;
+
+}
+

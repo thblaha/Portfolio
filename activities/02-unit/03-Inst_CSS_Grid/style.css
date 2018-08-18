@@ -1,0 +1,30 @@
+body {
+  height: 98vh;
+  padding: 10px;
+  color: white;
+}
+
+main {
+  display: grid;
+  height: 100%;
+  grid-template-rows: repeat(7, 1fr);
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+  color: white;
+}
+
+.box {
+  background: #444;
+  grid-row: span 1;
+  grid-column: span 1;
+}
+
+@media only screen and (min-width: 600px) {
+  main {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .three {
+    grid-column: span 2;
+  }
+}

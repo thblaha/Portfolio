@@ -1,0 +1,49 @@
+body {
+    height:98vh;
+    font-family: 'Montserrat',sans-serif;
+    background: orange;
+    color:#6e747a;
+    line-height: 1.5;
+}
+
+main {
+    display:grid;
+    height: 100%;
+    grid-template rows: 50px 3fr;
+    grid-template-columns: 2fr;
+    grid-gap: 10px;
+}
+
+.box {
+  height: 100%;
+  background-color: #999;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-column: span 1;
+  grid-row: span 1;
+}
+.two{
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    grid-column: span 1;
+    grid-row: span 2;
+}
+@media only screen and (min-width:600px) {
+    main {
+      grid-template-rows: 50px repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .one {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    .subbox {
+        background-color: cadetblue;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }

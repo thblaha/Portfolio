@@ -1,0 +1,39 @@
+body {
+  height: 98vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  height: 100%;
+  grid-gap: 10px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px repeat (4, 1fr);
+  color: white;
+  display: grid;
+}
+
+.box {
+  height: 100%;
+  background-color: #999;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-row: span 1;
+  grid-column: span 1;
+}
+
+@media only screen and (min-width: 600px) {}
+
+main {
+  grid-template-rows: 50px repeat (2, 1fr);
+  grid-template-columns: 1fr 70% 1fr;
+}
+
+.one {
+  grid-column: span 3;
+}
+
+.two,
+four {
+  grid-row: span 2;
+}

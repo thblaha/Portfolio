@@ -1,0 +1,61 @@
+body {
+  height: 98vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  height: 100%;
+  grid-gap: 10px;
+  color: white;
+  display: grid;
+}
+
+.box {
+  height: 100%;
+  background-color: #999;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.subbox {
+  display: none;
+}
+
+.a {
+  position: fixed;
+}
+
+.b {
+  position: relative;
+  left: 150px;
+}
+
+.five {
+  position: relative;
+}
+
+.c {
+  position: absolute;
+  right: 150px;
+}
+
+@media only screen and (min-width: 600px) {
+  .subbox {
+    background-color: cadetblue;
+    height: 150px;
+    width: 150px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .one {
+    grid-column: span 3;
+    height: 100%;
+  }
+  .two,
+  .four {
+    grid-row: span 3;
+    height: 100%;
+  }
+}
